@@ -1,0 +1,19 @@
+{
+  "name": "bloger2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon --quiet api",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run api\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

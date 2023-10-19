@@ -14,6 +14,9 @@ Project: Bloger2  (BACKEND) /api
 C:\xampp\htdocs\projects\bloger2\api
 
 -----------------------------------------------------------------------------------------------------
+RUN from root folder:
+	$ npm run dev
+-----------------------------------------------------------------------------------------------------
 
 STATUS: WORKING, BACKED UP, API'S TESTED OK WITH POSTMAN
 
@@ -44,10 +47,12 @@ BACKEND DEPENDENCIES:	{				FRONTEND DEPENDENCIES:   {
 ----------------------------------------------------------------------------------------------------
 
 NOTEs(!)
-Was a fairly smooth process, see References & Links. 
-/bloger2/api/routes/users.js -> EMPTY FILE
-Verify with package.json & use caution when installing dependencies. Remember to create the 
-/public/upload directory on the client side. 
+- Was a fairly smooth process, see References & Links. 
+- /bloger2/api/routes/users.js -> EMPTY FILE.
+- Verify with package.json & use caution when installing dependencies. Remember to create the 
+	/public/upload directory on the client side. 
+- No change / reset password feature.
+- Limitted POST text formating ability.
 
 TODO's:
  * THIS IS A Clone OF 'bloger' app to 'bloger2' db-> MySQL Database (bloger_app2)
